@@ -16,6 +16,7 @@ namespace CNVP.Application.Web.Controllers
         {
 
             DateTime dt = DateTime.Now;
+            dt = DateTime.Now.AddHours(10);
             return View();
 
         }
