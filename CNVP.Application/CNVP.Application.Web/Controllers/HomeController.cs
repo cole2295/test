@@ -14,8 +14,10 @@ namespace CNVP.Application.Web.Controllers
 
         public ActionResult Index()
         {
+
+            DateTime dt = DateTime.Now;
             return View();
-           
+
         }
 
     }
